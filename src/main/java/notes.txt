@@ -1,0 +1,11 @@
+A Program to demonstrate the use of @RequestParam annotation:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ApplicationController.java
+Notes:
+* The @RequestParam annotation is used to extract the query parameters from the web request and bind them to method arguments
+* The @RequestParam annotation is accept value, name, required and defaultValue attributes.
+* If value or name not defined then parameter name should be same as to method argument name, this is not for java.util.Map, org.springframework.util.MultiValueMap.
+* The required attribute is to make parameter is mandatory and non mandatory, and by default it is true.
+* The defaultValue attribute is to give a default value to the request parameter, it accept a value as String type. 
